@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{E52185A0-027A-463D-B8D8-081A11FB1122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{22197E9D-A184-4C46-9EE8-60ED152DB88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{A02BAE20-AEA4-4586-A0C0-B5EAAFB95727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{B32440FA-388D-43CD-B077-BA7E6A3F78A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dextermd.FeliciaHelper.MVC", "src\Dextermd.FeliciaHelper.MVC\Dextermd.FeliciaHelper.MVC.csproj", "{55B975B4-03E7-4C6F-AD84-96BD1F73CE20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55B975B4-03E7-4C6F-AD84-96BD1F73CE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B975B4-03E7-4C6F-AD84-96BD1F73CE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B975B4-03E7-4C6F-AD84-96BD1F73CE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B975B4-03E7-4C6F-AD84-96BD1F73CE20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55B975B4-03E7-4C6F-AD84-96BD1F73CE20} = {E52185A0-027A-463D-B8D8-081A11FB1122}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C83E5179-9B4F-4D46-B272-9878D6C2DFBC}
+	EndGlobalSection
+EndGlobal
