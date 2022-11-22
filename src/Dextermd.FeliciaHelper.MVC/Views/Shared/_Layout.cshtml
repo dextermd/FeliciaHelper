@@ -17,7 +17,7 @@
                         @await Html.PartialAsync("PartialViews/_profile_left_sidebar")
 
                         <div class="sidebar-panel">
-                            <h5 class="sidebar-panel-title">Navigation</h5>
+                        <h5 class="sidebar-panel-title text-center">Навигация</h5>
                         </div>
 
                         <div class="side-nav">
@@ -37,33 +37,35 @@
             @await Html.PartialAsync("PartialViews/_right_sidebar")
 
         <!-- .page-content -->
-        <div class="page-content sidebar-page right-sidebar-page clearfix">
+        <div class="page-content sidebar-page clearfix">
             <!-- .page-content-wrapper -->
             <div class="page-content-wrapper">
                 <div class="page-content-inner">
                     <!-- .page-content-inner -->
                     <div id="page-header" class="clearfix">
                         <div class="page-header">
-                            <h2>Dashboard</h2>
-                            <span class="txt">Welcome to Dynamic admin</span>
+                            <h2>
+                                Обзорная панель
+                            </h2>
+                            <span class="txt">Добро пожаловать!</span>
                         </div>
                         <div class="header-stats">
                             <div class="spark clearfix">
-                                <div class="spark-info"><span class="number">2345</span>Visitors</div>
+                                <div class="spark-info"><span class="number">0</span>def</div>
                                 <div id="spark-visitors" class="sparkline"></div>
                             </div>
                             <div class="spark clearfix">
-                                <div class="spark-info"><span class="number">17345</span>Views</div>
+                                <div class="spark-info"><span class="number">0</span>def</div>
                                 <div id="spark-templateviews" class="sparkline"></div>
                             </div>
                             <div class="spark clearfix">
-                                <div class="spark-info"><span class="number">3700$</span>Sales</div>
+                                <div class="spark-info"><span class="number">0</span>def</div>
                                 <div id="spark-sales" class="sparkline"></div>
                             </div>
                         </div>
                     </div>
 
-                    @RenderBody();
+                    @RenderBody()
 
                 </div>
                 <!-- / .page-content-inner -->
