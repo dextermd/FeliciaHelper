@@ -23,4 +23,8 @@
     <Folder Include="wwwroot\bundle\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dextermd.FeliciaHelper.Data\Dextermd.FeliciaHelper.Data.csproj" />
+  </ItemGroup>
+
 </Project>
